@@ -1,6 +1,6 @@
 {
   "name": "upload-release-asset",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Upload a release asset to an existing GitHub Release",
   "main": "dist/index.js",
@@ -23,10 +23,10 @@
   "dependencies": {
     "@actions/core": "^1.0.0",
     "@actions/exec": "^1.0.0",
-    "@actions/github": "^1.0.0"
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.4",
+    "@vercel/ncc": "^0.38.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.6.0",
